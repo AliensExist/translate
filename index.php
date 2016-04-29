@@ -40,7 +40,7 @@
 
   </head>
   <body>
-    <h1>Welcome</h1>
+    <h1 class="welcome">Welcome</h1>
     <div class="container">
       <div class="header clearfix">
         <nav>
@@ -50,7 +50,6 @@
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">Project name</h3>
       </div>
 
       <div class="jumbotron">
