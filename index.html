@@ -8,23 +8,32 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="pictures/baronloggo.png">
 
     <title>Languages</title>
 
+    <!-- compression of bootstrap for faster webpage on second load -->
+<script>
+    <IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE \
+      text/html text/plain text/xml application/xhtml+xml \
+      text/css \
+      text/javascript application/x-javascript application/javascript
+    </IfModule>
+</script>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!--<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <!--  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,16 +42,18 @@
     <![endif]-->
 
 
-    <link rel="stylesheet" href="css/mycss.css">
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+<link rel="stylesheet" href="css/mycss.css">
   </head>
   <body>
-    <h1 class="welcome">Welcome</h1>
+    <!--<body background="pictures/waterflower.jpg" id="myBody" onload="pageLoaded()">-->
+
+    <h1 class="welcome"></h1>
     <div class="container">
-      <div class="header clearfix">
+      <div class="clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
@@ -55,11 +66,8 @@
       <div class="jumbotron">
         <h1>Translate</h1>
 
-        <div id="googl§e_translate_element"></div><script type="text/javascript">
-      function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'sv', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-      }
-      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <!--  <div id='google_translate_element' style='display:block'></div> -->
+
 
 
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -91,7 +99,7 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <a class="navbar-brand" href="#">
-	      <img alt="JCR" src=""></a>
+	      <img alt="" src=""></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -173,11 +181,6 @@
     </div> <!-- /container -->
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>

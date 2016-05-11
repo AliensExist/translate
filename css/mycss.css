@@ -17,9 +17,14 @@ body {
   font-weight: bold;
   color: white;
 }
-
-
-
+/*color for page menu*/
+  .clearfix>nav>ul>li>a {
+    color: #40b83e;
+  }
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+      color: #40b83e;
+      background-color: #EEE;
+  }
 
 /*dropdown-menu*/
 
