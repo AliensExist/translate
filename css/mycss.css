@@ -13,10 +13,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.welcome {
-  font-weight: bold;
-  color: white;
-}
+
 /*color for page menu*/
   .clearfix>nav>ul>li>a {
     color: #40b83e;
@@ -25,6 +22,21 @@ body {
       color: #40b83e;
       background-color: #EEE;
   }
+/*audio box*/
+
+div.audioshow {
+color:#201f20;
+text-decoration: none;
+display: none;
+}
+div.audioshow>a:hover{
+  color:#c7c7c7;
+}
+
+
+
+
+
 
 /*dropdown-menu*/
 
