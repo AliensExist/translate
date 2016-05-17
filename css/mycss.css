@@ -86,3 +86,19 @@ div.audioshow>a:hover{
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+/* Searchbar */
+#here {
+  border-radius: 5px;
+}
+#Den {
+  float: right;
+  color: #fff;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.boxForThose {
+  float: right;
+}
