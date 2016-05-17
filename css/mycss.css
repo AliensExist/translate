@@ -1,3 +1,5 @@
+audio {max-width: 95%;}
+
 .googleTrans {
     background-color: #18ad42;
 }
@@ -35,7 +37,10 @@ div.audioshow>a:hover{
 
 
 
-
+/*jumbotron*/
+.jumbotron{
+  background-color: rgba(238, 238, 238, 0.91);
+}
 
 
 /*dropdown-menu*/
