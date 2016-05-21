@@ -80,14 +80,14 @@ function search() {
        /* Skriva ut infon på sidan */
        var printAll = function (p) {
          var stronk = document.getElementById("platsen");
-            if (a === 0) {
+            if (a === 0) { //om det är svenska ordet
               stronk.innerHTML = stronk.innerHTML +
-              "Svenska ordet: <strong>" + p.svname.cap1Letter()  +
-              "</strong> Arabiska ordet: <strong>" +  p.arname.cap1Letter()  + "</strong><br>" + p.ljud + "<br>";
-            } else {
+              "<p>" + p.svname.cap1Letter() + "<p>" + p.ljud + "<br>";
+              stronk.style.display = "block";
+            } else { //om det är det andra reservordet
              stronk.innerHTML = stronk.innerHTML +
-             "Arabiska ordet: <strong>" + p.arname.cap1Letter() +
-             "</strong> Svenska ordet: <strong>" + p.svname.cap1Letter()  + "</strong><br>" + p.ljud + "<br>";
+             "<p>" + p.arname.cap1Letter() + "<p>" + p.ljud + "<br>";
+             stronk.style.display = "block";
            }
        };
        printAll(arraY);
@@ -126,6 +126,12 @@ $("#mon1").click(function(){
       console.log("Hära: " + ljud[1][t]);
     }
     document.getElementById("audioshow").innerHTML = "<p>" + ljud[2][0] + "</p>" + ljud[2][2] +
+                                                     "<br><p>" + ljud[3][0] + "</p>" + ljud[3][2] +
+                                                     "<br><p>" + ljud[4][0] + "</p>" + ljud[4][2] +
+                                                     "<br><p>" + ljud[3][0] + "</p>" + ljud[3][2] +
+                                                     "<br><p>" + ljud[4][0] + "</p>" + ljud[4][2] +
+                                                     "<br><p>" + ljud[3][0] + "</p>" + ljud[3][2] +
+                                                     "<br><p>" + ljud[4][0] + "</p>" + ljud[4][2] +
                                                      "<br><p>" + ljud[3][0] + "</p>" + ljud[3][2] +
                                                      "<br><p>" + ljud[4][0] + "</p>" + ljud[4][2] +
                                                      "<br><p>" + ljud[5][0] + "</p>" + ljud[5][2] ;

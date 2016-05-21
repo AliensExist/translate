@@ -102,3 +102,14 @@ div.audioshow>a:hover{
 .boxForThose {
   float: right;
 }
+#platsen {
+  margin: 0 25% 0 25%;
+  background-color: #89cd7e;
+  padding: 5px;
+  border-radius: 14px;
+  width: 400px;
+  resize: both;
+  overflow: auto;
+  text-align: center;
+  display: none;
+}
